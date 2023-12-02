@@ -6,7 +6,7 @@ function TodoList() {
   const [todos, setTodos] = useState([]);
 
   const addTodo = todo => {
-    if (!todo.text || /^\s*$/.test(todo.text)) {
+    if (!todo.text) {
       return;
     }
 
@@ -42,7 +42,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>Plan for my day</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
