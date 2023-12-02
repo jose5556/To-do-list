@@ -75,6 +75,10 @@ h1 {
   text-transform: capitalize;
 }
 
+.todo-button:hover {
+  background: linear-gradient(90deg, rgba(0, 128, 0, 1) 0%, rgba(0, 255, 0, 1) 100%); /* Altera a cor para verde */
+}
+
 .todo-input.edit {
   border: 2px solid #149fff;
 }
