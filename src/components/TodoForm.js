@@ -47,8 +47,8 @@ function TodoForm(props) {
             onChange={handleChange}
             name='text'
             className='todo-input'
-            ref={inputRef}
-          />
+            ref={inputRef}/>
+            
           <button onClick={handleSubmit} className='todo-button'>
             Confirm
           </button>
