@@ -18,7 +18,7 @@ This project was made to practice component-based design and state management in
 # 🔍 Overview
 
 
-![Screenshot of the Project](/mandelbrot_1.png)
+![Screenshot of the Project](/my_list.png)
 
 The main features of this app are:
 
@@ -29,27 +29,34 @@ The main features of this app are:
     🗑️ Delete tasks when they’re done or no longer needed
 
 The project uses React hooks like useState and useEffect, and is fully functional without any backend — all data is stored in the local state.
-🛠️ Usage
-Requirements
+
+# 🛠️ Usage
+
+### Requirements
 
     Node.js (v16 or later)
 
-    npm or yarn
+    npm
 
-Setup
+### Setup
 
 Clone the repository and install the dependencies:
 
-$ git clone https://github.com/jose5556/react-todo-list.git
-$ cd react-todo-list
+```shell
+$ git clone git@github.com:jose5556/To-do-list.git
+$ cd To-do-list
 $ npm install
+```
 
 To run the app locally:
 
+```shell
 $ npm start
+```
 
 The application will be available at http://localhost:3000
-🎯 Example
+
+### 🎯 Example
 
 Here's how you can use it:
 
@@ -60,13 +67,8 @@ Here's how you can use it:
     Click the Delete button to remove it from the list.
 
 All changes happen in real-time and reflect immediately on screen.
-📌 Note
 
-This is a front-end only application.
-You can expand it by adding local storage, a backend, or even drag-and-drop support in the future!
+### 📌 Note
 
-Feel free to fork this project, customize it, and make it your own productivity tool 🛠️✨
-
-Let me know if you’d like to add a screenshot section, demo link, or deployment instructions!
-
-
+- This is a front-end only application.
+- Feel free to fork this project, customize it, and make it your own productivity tool 🛠️✨
